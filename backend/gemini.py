@@ -1,7 +1,7 @@
 from google import genai
 def sentiment_analysis(prompt, apiKey):  
     
-    client = genai.Client(api_key="AIzaSyCoKGXJdDulLnjWyE2HaQVBdNeS12TGzMU") 
+    client = genai.Client(api_key="") 
     
     response = client.models.generate_content(
         model='gemini-2.0-flash',
